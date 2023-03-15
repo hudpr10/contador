@@ -1,0 +1,74 @@
+:root {
+    --cor-de-fundo: #3A98B9;
+    --cor-do-card: #FFF1DC;
+    --cor-do-texto: #E8D5C4;
+    --cor-secundaria: white;
+}
+
+
+body {
+    font: normal 1em Arial;
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-secundaria);
+}
+
+.card {
+    width: 500px;
+    margin: auto;
+    background-color: var(--cor-do-card);
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.titulo {
+    font-size: 3em;
+}
+
+.rodape {
+    font-size: 1.5em;
+}
+
+.rodape__container,
+.titulo__container {
+    text-align: center;
+}
+
+.texto__card {
+    color: var(--cor-de-fundo);
+}
+
+.barrinha {
+    padding-left: 0.25em;
+    outline: none;
+    color: var(--cor-de-fundo);
+    border: 2px solid var(--cor-de-fundo);
+    border-radius: 0.5em;
+    background-color: var(--cor-secundaria);
+}
+
+.barrinha:focus {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-secundaria);
+}
+
+.barrinha:hover {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-secundaria);
+    transition: 0.2s;
+}
+
+.botao {
+    color: var(--cor-de-fundo);
+    background: var(--cor-secundaria);
+    border: 2px solid var(--cor-de-fundo);
+    padding: 0.2em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.botao:hover {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-de-fundo);
+    transition: 0.2s;
+}
+
